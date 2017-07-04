@@ -1,0 +1,41 @@
+group 'alexa-tomcat-vulnerabilties'
+version '1.0-SNAPSHOT' //use versioning scheme 1.0.0.1
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.5 //maybe use 1.6, 1.7, or 1.8 or remove altogether
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Groovy
+    compile 'org.codehaus.groovy:groovy:2.4.12'
+    compile 'org.codehaus.groovy:groovy-xml:2.4.12'
+    // AWS Lambda
+    compile 'com.amazonaws:aws-lambda-java-core:1.1.0'
+    compile 'com.amazonaws:aws-lambda-java-events:1.1.0'
+    // Alexa Skill Kit
+    compile 'com.amazon.alexa:alexa-skills-kit:1.1.2'
+    // slf4j
+    compile 'org.slf4j:slf4j-api:1.7.10'
+    compile 'org.slf4j:jul-to-slf4j:1.7.19'
+    compile 'org.slf4j:slf4j-api:1.7.19'
+    // Apache Commons
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
+    // JSON-lib
+    compile 'net.sf.json-lib:json-lib:2.4:jdk15'
+    // logback
+    compile 'ch.qos.logback:logback-classic:1.0.13'
+    //JUnit
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-fat'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

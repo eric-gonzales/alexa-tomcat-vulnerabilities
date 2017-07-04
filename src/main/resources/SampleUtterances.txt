@@ -1,0 +1,44 @@
+GetLatestCVEIntent latest c.v.e.
+GetLatestCVEIntent latest security vulnerability
+GetLatestCVEIntent latest security alert
+GetLatestCVEIntent latest alert
+GetLatestCVEIntent latest vulnerability
+GetLatestCVEIntent latest advisory
+GetLatestCVEIntent give me the latest
+GetLatestCVEIntent give me the latest c.v.e.
+GetLatestCVEIntent give me the latest security vulnerability
+GetLatestCVEIntent give me the latest security alert
+GetLatestCVEIntent give me the latest alert
+GetLatestCVEIntent give me the latest vulnerability
+GetLatestCVEIntent give me the latest advisory
+GetLatestCVEIntent most recent c.v.e.
+GetLatestCVEIntent most recent security vulnerability
+GetLatestCVEIntent most recent security alert
+GetLatestCVEIntent most recent alert
+GetLatestCVEIntent most recent vulnerability
+GetLatestCVEIntent most recent advisory
+GetLatestCVEIntent give me the most recent c.v.e.
+GetLatestCVEIntent give me the most recent security vulnerability
+GetLatestCVEIntent give me the most recent security alert
+GetLatestCVEIntent give me the most recent alert
+GetLatestCVEIntent give me the most recent vulnerability
+GetLatestCVEIntent give me the most recent advisory
+GetLatestCVEIntent tell me the latest
+GetLatestCVEIntent tell me the most recent c.v.e.
+GetLatestCVEIntent tell me the most recent security vulnerability
+GetLatestCVEIntent tell me the most recent security alert
+GetLatestCVEIntent tell me the most recent alert
+GetLatestCVEIntent tell me the most recent vulnerability
+GetLatestCVEIntent tell me the most recent advisory
+GetLatestCVEIntent tell me the latest c.v.e.
+GetLatestCVEIntent tell me the latest security vulnerability
+GetLatestCVEIntent tell me the latest security alert
+GetLatestCVEIntent tell me the latest alert
+GetLatestCVEIntent tell me the latest vulnerability
+GetLatestCVEIntent tell me the latest advisory
+GetLatestCVEIntent what is the latest c.v.e.
+GetLatestCVEIntent what is the latest security vulnerability
+GetLatestCVEIntent what is the latest security alert
+GetLatestCVEIntent what is the latest alert
+GetLatestCVEIntent what is the latest vulnerability
+GetLatestCVEIntent what is the latest advisory
